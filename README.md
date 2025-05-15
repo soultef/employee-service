@@ -93,11 +93,11 @@ Output JAR: target/employee-service-1.0.0.jar
 # 🔄 CI/CD with GitHub Actions
 The project includes a simple CI workflow at:
 .github/workflows/ci.yml
-It will:
 
-Build the app
-Run tests
-Upload the JAR as a build artifact
+It will:
+ Build the app
+ Run tests
+ Upload the JAR as a build artifact
 
 # 🧭 Future Enhancements
  JWT-based authentication
