@@ -28,15 +28,7 @@
 ---
 
 ## 📁 Project Structure
-employee-service/
-├── controller/ # REST API endpoints
-├── service/ # Business logic layer
-├── repository/ # JPA interfaces
-├── entity/ # JPA entity classes (Employee, Department)
-├── dto/ # Data Transfer Objects
-├── config/ # Security config, CORS
-└── resources/
-└── application.properties
+<pre> employee-service/ ├── controller/ # REST API endpoints (e.g., EmployeeController) ├── service/ # Business logic layer (e.g., EmployeeService) ├── repository/ # JPA repository interfaces (e.g., EmployeeRepository) ├── entity/ # JPA entity classes (e.g., Employee, Department) ├── dto/ # Data Transfer Objects (e.g., EmployeeDTO) ├── config/ # Security, CORS, JWT config ├── resources/ │ └── application.properties # Spring Boot configuration └── EmployeeServiceApplication.java # Main Spring Boot entry point </pre>
 
 ---
 ## 🛠️ How to Run
