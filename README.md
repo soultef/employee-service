@@ -59,10 +59,11 @@ cd employee-service
 ----Copy and paste the following in the application.property file----
 # MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/bookstoredb
-spring.datasource.username= root //replace it with your user name
-spring.datasource.password= password // replace it with your password
-spring.jpa.properties.hibernate.format_sql=true
+spring.datasource.username=root        # replace with your MySQL username
+spring.datasource.password=password    # replace with your MySQL password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.properties.hibernate.format_sql=true
+
 
 # Hibernate (JPA) Configuration
 spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
