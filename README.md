@@ -58,7 +58,7 @@ cd employee-service
 ## application.properties
 ----Copy and paste the following in the application.property file----
 # MySQL Database Configuration
-spring.datasource.url=jdbc:mysql://localhost:3306/bookstoredb
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_service_db
 spring.datasource.username=root        # replace with your MySQL username
 spring.datasource.password=password    # replace with your MySQL password
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
