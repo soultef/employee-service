@@ -53,9 +53,9 @@ git clone https://github.com/soultef/employee-service.git
 cd employee-service
 
 # 🧰 Configuration
-## application.properties
---Copy and paste the following --
 
+## application.properties
+----Copy and paste the following in the application.property file----
 # MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/bookstoredb
 spring.datasource.username= root //replace it with your user name
