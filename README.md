@@ -48,15 +48,16 @@ employee-service/
 - Maven 3.8+
 
 ### ▶️ Run the app
-
+```
 # Clone the repo
 git clone https://github.com/soultef/employee-service.git
 cd employee-service
+```
 
 # 🧰 Configuration
-
 ## application.properties
 ----Copy and paste the following in the application.property file----
+```
 # MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/employee_service_db
 spring.datasource.username=root        # replace with your MySQL username
@@ -75,7 +76,7 @@ spring.datasource.hikari.maximum-pool-size=10
 spring.datasource.hikari.minimum-idle=2
 spring.datasource.hikari.idle-timeout=30000
 spring.datasource.hikari.max-lifetime=60000
-
+```
 # Run the app
 mvn spring-boot:run
 
