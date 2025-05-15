@@ -25,7 +25,7 @@
 - MySQL database
 - Maven
 
----
+```
 
 ## 📁 Project Structure
 employee-service/
@@ -39,7 +39,7 @@ employee-service/
 │   └── application.properties  # Spring Boot configuration
 └── EmployeeServiceApplication.java  # Main Spring Boot entry point
 
----
+```
 ## 🛠️ How to Run
 
 ### 📦 Prerequisites
